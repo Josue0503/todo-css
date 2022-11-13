@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.fuente1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fuente2{
+    font-family: 'Roboto Slab', serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=BenchNine&family=Roboto+Slab&display=swap');
+.fuente3{
+    font-family: 'Anton', sans-serif;
+font-family: 'BenchNine', sans-serif;
+font-family: 'Roboto Slab', serif;
+}

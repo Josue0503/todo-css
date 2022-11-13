@@ -1,0 +1,90 @@
+body{
+    background-image: url(https://img.freepik.com/premium-vector/public-library-interior-stack-book-bookshelf-flat_7081-837.jpg?w=2000) ;
+    
+}
+h3{
+    color: white;
+    background-color: maroon;
+}
+.nombre{
+    text-align: center;
+    background-color: white;
+}
+
+
+.navegacion, a, li, ul{
+    
+    text-align: center;
+    display: inline;
+    color: white;
+    padding: 5px;
+  }
+ nav{
+     background-color: skyblue;
+     
+ }
+
+  .librog{
+     width: 20%;
+     
+  }
+  .libro01{
+      text-align: center;
+      text-justify: auto;
+  }
+  /*Fin de centrado*/
+  .p1{
+      text-align: center;
+      background-color: violet;
+  }
+  #download{
+      margin-bottom: 5px;
+      display: inline-block;
+      color: white;
+      background-color: blue;
+      padding: 5px;
+  }
+  .download{
+      text-align: center;
+  }
+  fieldset{
+      margin-bottom: 5px;
+      text-align: center;
+  }
+  .primer{
+      height: 55px;
+  }
+  /*segundo*/
+  .p2{
+    text-align: center;
+    background-color: greenyellow;
+  }
+  #descarga2{
+     
+      color: black;
+  }
+  .download2{
+    text-align: center;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: white;
+    background-color: greenyellow;
+    padding: 5px;
+  }
+  .p3{
+    text-align: center;
+    background-color: orange;
+  }
+  .download3{
+    text-align: center;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: white;
+    background-color: orange;
+    padding: 5px;
+  }
+
+  .copyright{
+      text-align: center;
+      
+  }

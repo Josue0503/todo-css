@@ -1,0 +1,99 @@
+/*Selector universal para controlar los margenes y rellenos*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*estilo para body*/
+body{
+    background-image: url(https://www.muycomputer.com/wp-content/uploads/2020/06/PS5-portada-1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*Estilos para el encabezado*/
+header{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 150px;
+}
+.menu ul{
+list-style: none;
+}
+.menu ul li{
+    position: relative;
+    float: left;
+}
+.menu li a{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.menu ul li a:hover{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.822);
+    border-radius: 30px;
+}
+main{
+    width: 90%;
+    background-color: rgba(193, 226, 225, 0.295);
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.container .card{
+    background-color: white;
+    width: 270px;
+    border-style: dashed;
+    border-radius: 10px;
+    box-shadow: 0px 8px 10px solid black;
+}
+
+.container .card img{
+    width: 90%;
+}
+
+.container .card h3{
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.container .card p{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.primeraLetra::first-letter{
+    padding: 2px;
+    font-weight: bold;
+    font-size: 30px;
+}
+footer{
+    letter-spacing: 2px;
+    text-align: right;
+    background-color: rgba(86, 132, 233, 0.575);
+    color: white;
+    padding: 30px;
+}

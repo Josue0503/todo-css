@@ -1,0 +1,47 @@
+p{
+    background-color: aquamarine ;
+    /*padding-top: 50px;
+    padding-left: 50px ;
+    padding-right: 5p0x ;
+    padding-bottom: 50px;*/
+}
+
+/*ACCESO DIRECTO O SHORTCUT*/
+/*ARRIBA, DERECHA, ABAJO, IZQUIERDA*/
+p{
+    padding: 50px 2px 25px;
+    /*BORDER O BORDE*/
+    border-top: 2px dashed rebeccapurple;
+    border-right: 2px dashed orange;
+    border-bottom: 2px dashed  rgb(132, 0, 255);
+    border-left: 2px solid blue;
+    border-width: 9%;
+
+    /*aplica a todo*/
+    border-width: 20px 10px 5px 9px;
+
+    border-style: dotted solid ridge ;
+
+    margin: 100px 20px;
+}
+
+a{
+    width: 100px;
+    background-color: maroon;
+    color: white;
+    display: block;
+    padding: 12px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+main{
+    width: 100%;
+    background-color: red;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+

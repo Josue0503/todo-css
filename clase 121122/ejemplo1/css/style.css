@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+/*Estilo flexible para el papá-etiqueta div*/
+}
+.box {
+  background-color: greenyellow;
+    display: flex;
+    /* flex-direction: row;
+    flex-flow: wrap;  */
+    /* Column, row-reverse,row, column-reverse */
+    flex-flow: row-reverse wrap;
+    /* align-items: flex-start; */
+    /* CREA UN ESPACIO EN RIGHT ANF LEFT */
+    justify-content: space-around;
+    /* CREA UN ESPACIO EN RIGHT */
+    justify-content: flex-end;
+    /* CREA UN ESPACIO EN CENTER */
+    justify-content: space-between;
+    /* CREA ESPACIOS EN CENTER, LEFT AND RIGHT */
+    justify-content: space-evenly;
+  }
+  /* ETIQUETAS PARA LOS HIJOS-ETIQUETA DIV */
+  .box div{
+    background-color: aliceblue;
+    width: 50vh;
+    border: 2px solid black;
+    
+  }
+  .box div img{
+    width: 100px;
+  }
+main{
+  height: 50vh;
+}
+
+/* AJUSTAR LOS ESPACIOS */
+  /* .izquierda{
+flex: 1 1 auto;
+  }
+  .centro{
+    flex: 1 1 auto;
+  }
+  .derecha{
+    flex: 1 1 auto;
+  } */
